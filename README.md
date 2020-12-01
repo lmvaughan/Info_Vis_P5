@@ -5,7 +5,7 @@ Adaptive D3 chart display for startbucks drinks
 ***********************************For Windows***********************************
 *********************************************************************************
 
-1.) Make sure Node JS & NPM are installed in your pc here (https://www.npmjs.com/get-npm)
+1.) Make sure Node JS & NPM are installed on your pc here (https://www.npmjs.com/get-npm)
 
 2.) Open CMD run the commain npm i http-server
 
