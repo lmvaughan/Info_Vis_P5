@@ -567,11 +567,12 @@ function start() {
                 };
                 newObj.push(holder);
             }
+            let max1 = 0;
             for (let z = 0; z < newObj.length; z++) {
-                max = Math.max(max, newObj[z].value);
+                max1 = Math.max(max1, newObj[z].value);
             }
             yScale1 = d3.scaleLinear()
-                .domain([0, max])
+                .domain([0, max1])
                 .range([height, 0]);
             y.transition().duration(1000).call(d3.axisLeft(yScale1));
 
