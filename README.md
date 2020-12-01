@@ -11,7 +11,7 @@ Adaptive D3 chart display for startbucks drinks
 
 3.) Open file explorer, navigate to the folder containing these project files
 
-4.) In the select the directory and delete it, then type cmd.exe
+4.) In Address Bar for the folder, select all the text and delete it, then type in the bar (cmd.exe)
 
 5.) CMD should open pre cd'd to the folders directory
 
