@@ -9,7 +9,7 @@ Adaptive D3 chart display for startbucks drinks
 
 2.) Open CMD run the commain npm i http-server
 
-3.) Open file explorer, navigate to the folder
+3.) Open file explorer, navigate to the folder containing these project files
 
 4.) In the select the directory and delete it, then type cmd.exe
 
