@@ -1,21 +1,49 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>D3 is awesome</title>
-	<!-- Always include D3 first. -->
-	<script src="http://d3js.org/d3.v4.min.js"></script>
-	<!-- Include main.js, which is where all our code lives -->
-	<script src="main.js"></script>
-	<!-- Include any styles we want to add to our page -->
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <title>Starbucks Drink Data Visualization</title>
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Starbucks Drink Nutrition Info</h1>
-    <!-- Our graph will be added inside this divider element -->
-    <div><select id="selectButton"></select></div>
-    <div><select id="selectButton2"></select></div>
-    <div><select id="selectButton3"></select></div>
-    <div id="graph"></div>
+    <div class="container">
+        <div class="left">
+            <h1>Starbucks Nutrition Info Vs. Beverage Category</h1>
+            <h2>&nbsp</h2>
+            <div class="labelContainer">
+                <label class="labelLeft" for="Select_Categories">Choose A Category</label>
+                <div><select id="Select_Categories"></select></div>
+            </div>
+            <div class="labelContainer1">
+                <label class="labelLeft" for="Select_Sub">Choose A Subcategory</label>
+                <div><select id="Select_Sub"></select></div>
+            </div>
+            <div id="graph"></div>
+        </div>
+        <div class="middle">
+        </div>
+        <div class="right">
+            <h1>Current Drink Daily Value</h1>
+            <h2>(Based on a 2000 Calorie Diet)</h2>
+            <div id="graph1"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div >
+            <div class="leftBottom">
+                <label class="labelLeft" for="selectButton3">Choose A Nutrition</label>
+                <div><select id="selectButton3"></select></div>
+            </div>
+        </div>
+        <div >
+            <div class="rightBottom">
+                <label class="labelLeft" for="Select_Size">Choose A Size</label>
+                <div><select id="Select_Size"></select></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

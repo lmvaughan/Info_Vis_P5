@@ -1,18 +1,104 @@
+h1 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bolder;
+    line-height: 26.4px;
+    color: #0B421A;
+}
+h2 {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bolder;
+    line-height: 26.4px;
+    color: #0B421A;
+}
+.yaxis_label {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    fill: #0B421A;
+}
+.xaxis_label {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+    line-height: 26.4px;
+    fill: #0B421A;
+}
+.d3-tip {
+    background-color: white;
+    width: 10rem;
+    opacity: 0.9;
+}
+.outerDiv {
+    display: inline-block;
+}
+.important {
+    font-weight: bolder;
+    display: inline-block
+}
+select {
+    color: #362415;
+    background: #EAC784;
+}
+.labelLeft {
+    top: 0;
+    right: 100%;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    color: #0B421A;
+}
+.labelContainer {
+    position: absolute;
+    left: 670px;
+    top: 50px;
+}
+.labelContainer1 {
+    position: absolute;
+    left: 670px;
+    top: 90px;
+}
+.labelContainer2 {
+    position: absolute;
+    left: 670px;
+    top: 130px;
+}
+.labelContainer3 {
+    position: absolute;
+    left: 670px;
+    top: 170px;
+}
+.container {
+    margin: 2px 10px;
+    display: flex;
+}
+.right {
+    flex-basis: 30%;
+}
+.middle {
+    padding: 7rem
+}
+.left {
+    justify-content: flex-start
+}
 .bar {
-  fill: steelblue;
+    justify-content: flex-start
 }
-.bar:hover {
-  fill: brown;
+.leftBottom {
+    padding-left: 15rem;
+    padding-right: 60rem;
 }
-.axis {
-  font: 10px sans-serif;
+.rightBottom {
+
 }
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-.x.axis path {
-  display: none;
-}
+
+
