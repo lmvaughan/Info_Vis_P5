@@ -7,7 +7,7 @@ Adaptive D3 chart display for startbucks drinks
 
 1.) Make sure Node JS & NPM are installed on your pc here (https://www.npmjs.com/get-npm)
 
-2.) Open CMD run the commain npm i http-server
+2.) Open CMD run the command npm i http-server
 
 3.) Open file explorer, navigate to the folder containing these project files
 
